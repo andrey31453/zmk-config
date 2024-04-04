@@ -41,10 +41,10 @@
 
         symbols_layer {
             bindings = <
-  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp A            &kp A
-  &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp A            &kp A
-  &trans           &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp PLUS          &kp MINUS              &kp ASTERISK       &kp SLASH        &kp EXCLAMATION  &kp EQUAL
-                                    &trans     &trans     &trans     &trans          &trans            &trans                 &trans             &trans
+  &kp GRAVE         &kp SEMICOLON  &kp COMMA  &kp SLASH     &kp MINUS  &kp EXCLAMATION    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp PIPE       &kp DOLLAR
+  &kp RS(DQT)       &kp COLON      &kp DOT    &kp ASTERISK  &kp PLUS   &kp EQUAL          &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp AMPERSAND  &kp CARET
+  &kp SINGLE_QUOTE  &kp A          &kp A      &kp A         &kp A      &kp A              &kp A             &kp A                  &kp A              &kp A            &kp A          &kp A
+                                   &trans     &trans        &trans     &trans             &trans            &trans                 &trans             &trans
             >;
         };
 
