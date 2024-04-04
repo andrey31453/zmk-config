@@ -41,10 +41,10 @@
 
         symbols_layer {
             bindings = <
-  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp SLCK         &kp CAPS
-  &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp INS          &mt RCTRL K_APP
+  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp A            &kp A
+  &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp A            &kp A
   &trans           &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp PLUS          &kp MINUS              &kp ASTERISK       &kp SLASH        &kp EXCLAMATION  &kp EQUAL
-                                    &trans     &trans     &trans     &lt 3 RET       &lt 3 ESC         &trans                 &trans             &trans
+                                    &trans     &trans     &trans     &trans          &trans            &trans                 &trans             &trans
             >;
         };
 
@@ -53,7 +53,7 @@
   &bootloader  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &bootloader
   &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
   &sys_reset   &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &sys_reset
-                             &none         &trans        &none         &trans          &trans        &none         &trans        &none
+                             &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans
             >;
         };
     };
